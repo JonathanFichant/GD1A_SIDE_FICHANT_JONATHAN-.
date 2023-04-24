@@ -17,7 +17,7 @@ var config = { // initialisation de phaser
     default: 'arcade', // moteur Arcade
     arcade: {
         gravity: { y: 1000 }, // gravité, nombre de pixels par seconde en chute à pleine vitesse
-        debug: true // en true permet de voir les hitbox et trajectoires
+        debug: false // en true permet de voir les hitbox et trajectoires
     }},
     input:{gamepad:true},
     scene: {preload: preload, create: create, update: update }
@@ -191,7 +191,7 @@ background = this.add.sprite(0,0,'background').setOrigin(0,0).setScrollFactor(0)
     //platforms.create(150, 350, 'ground').setScale(0.1,12).refreshBody(); //position x et y, puis le sprite utilisé
     
  
-    player = this.physics.add.sprite(128, 128, 'perso'); // Spawn du player 16-480 par défaut , 1104 1088 pour glisser, 
+    player = this.physics.add.sprite(16, 480, 'perso'); // Spawn du player 16-480 par défaut , 1104 1088 pour glisser, 
     player.setCollideWorldBounds(true); // l'objet joueur est bloqué par les limites du niveau
     player.setOrigin(0.5,1); // origine au milieu en bas
     this.physics.add.collider(player,calque_solGlissant,glissade,null,this);
