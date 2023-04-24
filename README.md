@@ -1,5 +1,7 @@
 # GD1A_SIDE_FICHANT_JONATHAN-.
 
+Lien jouable : https://jonathanfichant.github.io/GD1A_SIDE_FICHANT_JONATHAN-./
+
 Bienvenue dans Rob'In Mansion !
 
 Votre but sera de récupérer les différents joyaux disséminés dans cette riche demeure. Attention au garde !
